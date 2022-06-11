@@ -22,7 +22,7 @@ for (ii in 1:100) {
   X_train = X[train_ind,]
   X_test = X[-train_ind,]
   
-  res5 = bayesemp_opt(X_train, Y[train_ind],Oiter =1000,Oburnin = 500,thres_s=0.1)
+  res5 = BEL_HD(X_train, Y[train_ind],Oiter =1000,Oburnin = 500,thres_s=0.1)
   
   mspe_5 = mean((Y[-train_ind] - X_test%*%res5$beta)^2)
   
