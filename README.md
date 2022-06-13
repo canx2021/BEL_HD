@@ -18,7 +18,7 @@ prediction and variable selection, as shown in our numerical studies.
 ## Implementation
 * Run BEL_HD_cpp.R 
 * Run EL_DP_demo.R
-* Run each code in simulation/real_data folder
+* Run any code in Simulation/Empirical_Studies folder
 
 ## References
 <a id="1">[1]</a> 
